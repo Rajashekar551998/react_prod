@@ -1,0 +1,14 @@
+.view_website {
+  border: 1px solid #6e07f3;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: white;
+  color: #6e07f3;
+  font-size: 17px;
+  cursor: pointer;
+  width: 150px;
+}
+.view_website:hover {
+  background-color: #6e07f3;
+  color: white;
+}

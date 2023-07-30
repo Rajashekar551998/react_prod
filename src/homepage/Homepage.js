@@ -3,6 +3,7 @@ import "./Homepage.css";
 import avatar from "../Images/avatar.png";
 import devices from "../Images/devices.svg";
 import Intro from "../Intro";
+import Recentwork from "../Recentwork";
 
 function Homepage() {
   return (
@@ -37,6 +38,7 @@ function Homepage() {
         <img src={devices} className="devices_logo" />
       </div>
       <Intro />
+      <Recentwork />
     </React.Fragment>
   );
 }

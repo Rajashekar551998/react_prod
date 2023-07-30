@@ -34,9 +34,12 @@ function Intro() {
       </div>
       <div
         className="container d-flex justify-content-center mt-5"
-        style={{ margin: "20px" }}
+        style={{ margin: "20px", fontSize: "17px" }}
       >
-        <div class="card" style={{ width: "30rem" }}>
+        <div
+          class="card"
+          style={{ width: "30rem", border: "1px solid #6e07f3" }}
+        >
           <div class="card-body">
             <i
               class="bi bi-code-slash"
@@ -48,9 +51,33 @@ function Intro() {
                 alignItems: "center",
               }}
             ></i>
-            <p class="card-text">
+            <p class="card-text mt-4">
               I like to code things from scratch, and enjoy bringing ideas to
               life in the browser.
+            </p>
+            <p style={{ color: "#6e07f3" }}>Languages I Speak</p>
+            <p>HTML5, CSS3, JavaScript, ReactJS, BootStrap, GIT</p>
+            <p style={{ color: "#6e07f3" }}>Dev Tools</p>
+            <p>
+              <i
+                class="bi bi-braces"
+                style={{ marginRight: "5px", color: "#5BE9B9" }}
+              ></i>
+              VS Code
+            </p>
+            <p>
+              <i
+                class="bi bi-braces"
+                style={{ marginRight: "5px", color: "#5BE9B9" }}
+              ></i>
+              WebStrom
+            </p>
+            <p>
+              <i
+                class="bi bi-braces"
+                style={{ marginRight: "5px", color: "#5BE9B9" }}
+              ></i>
+              Atom
             </p>
           </div>
         </div>
