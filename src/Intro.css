@@ -1,0 +1,8 @@
+@import "~bootstrap-icons/font/bootstrap-icons";
+
+.main_tag {
+  border-radius: 30px;
+}
+.title_card {
+  border: 2px solid #6e07f3;
+}

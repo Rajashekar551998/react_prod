@@ -1,0 +1,15 @@
+.myName {
+  color: black;
+  margin: 25px;
+}
+.avatar_logo {
+  height: 18%;
+  width: 18%;
+  background-color: #6e07f3;
+  border-radius: 40px;
+}
+.devices_logo {
+  height: 60%;
+  width: 60%;
+  margin-top: 8%;
+}
