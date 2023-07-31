@@ -12,3 +12,17 @@
   background-color: #6e07f3;
   color: white;
 }
+.start_con {
+  border: 1px solid #6e07f3;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: white;
+  color: #6e07f3;
+  font-size: 17px;
+  cursor: pointer;
+  width: 18%;
+}
+.start_con:hover {
+  background-color: #6e07f3;
+  color: white;
+}
