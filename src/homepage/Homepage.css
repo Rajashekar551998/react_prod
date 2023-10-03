@@ -13,3 +13,13 @@
   width: 60%;
   margin-top: 8%;
 }
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #6e07f3;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}

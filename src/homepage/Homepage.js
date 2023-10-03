@@ -34,7 +34,7 @@ function Homepage() {
       <div className="container text-center mt-5">
         <img src={avatar} className="avatar_logo" />
       </div>
-      <div className="container text-center mt-5">
+      <div className="container text-center mt-3">
         <img src={devices} className="devices_logo" />
       </div>
       <Intro />

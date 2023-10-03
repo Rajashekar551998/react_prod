@@ -22,7 +22,7 @@ function Recentwork() {
             Email me.
           </a>
         </p>
-        <div className="container d-flex justify-content-center mt-5">
+        <div className="container d-flex justify-content-center mt-4">
           <div className="row">
             <div className="col-md-12">
               <div className="card-body">
@@ -48,7 +48,7 @@ function Recentwork() {
                   src={cigna}
                   alt="CignaLogo"
                   style={{
-                    width: "200px",
+                    width: "180px",
                     height: "80px",
                     pointerEvents: "none",
                   }}
@@ -68,6 +68,14 @@ function Recentwork() {
           ></i>
           I’m always open to discussing product design & Development work.
         </p>
+        <a
+          href="https://www.linkedin.com/in/rajashekar-reddy-chinthala/"
+          target="_blank"
+          style={{ textDecoration: "none", fontSize: "18px" }}
+        >
+          <i class="bi bi-linkedin" style={{ marginRight: "5px" }}></i>
+          Linkedin
+        </a>
       </div>
     </React.Fragment>
   );

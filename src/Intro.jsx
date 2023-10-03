@@ -12,7 +12,7 @@ function Intro() {
               className="my_name"
             >
               Hi, I’m{" "}
-              <span style={{ color: "#6e07f3" }}>Venkata Chinthala.</span> Nice
+              <span style={{ color: "#6e07f3" }}>Venkata Rajashekar Reddy Chinthala.</span> Nice
               to meet you.
             </h4>
             <h4 style={{ color: "black", fontSize: "17px", marginTop: "20px" }}>
