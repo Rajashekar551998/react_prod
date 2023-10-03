@@ -11,12 +11,12 @@ function Homepage() {
       <div className="container text-center">
         <h2
           style={{
-            fontSize: "40px",
+            fontSize: "35px",
             justifyContent: "center",
             alignItems: "center",
             display: "flex",
           }}
-          className="mt-5"
+          className="mt-4"
         >
           UI & Front End Developer
         </h2>
@@ -32,10 +32,18 @@ function Homepage() {
         </h4>
       </div>
       <div className="container text-center mt-5">
-        <img src={avatar} className="avatar_logo" />
+        <img
+          src={avatar}
+          className="avatar_logo"
+          style={{ pointerEvents: "none" }}
+        />
       </div>
       <div className="container text-center mt-3">
-        <img src={devices} className="devices_logo" />
+        <img
+          src={devices}
+          className="devices_logo"
+          style={{ pointerEvents: "none" }}
+        />
       </div>
       <Intro />
       <Recentwork />

@@ -76,6 +76,14 @@ function Intro() {
               ></i>
               Atom
             </p>
+            <a
+          href="https://www.linkedin.com/in/rajashekar-reddy-chinthala/"
+          target="_blank"
+          style={{ textDecoration: "none", fontSize: "18px" }}
+        >
+          <i class="bi bi-linkedin" style={{ marginRight: "5px" }}></i>
+          Linkedin
+        </a>
           </div>
         </div>
       </div>

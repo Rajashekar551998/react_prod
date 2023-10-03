@@ -7,7 +7,7 @@ import cigna from "./Images/cigna.png";
 function Recentwork() {
   return (
     <React.Fragment>
-      <div className="container text-center" style={{ marginTop: "30px" }}>
+      <div className="container text-center mb-5" style={{ marginTop: "30px" }}>
         <h4 style={{ fontSize: "30px" }}>My Work Experiences</h4>
         <p style={{ fontSize: "18px" }}>
           Here are a few past design projects I've worked on. Want to see more?
@@ -30,7 +30,7 @@ function Recentwork() {
                   src={opentext}
                   alt="OpentextLogo"
                   style={{
-                    width: "200px",
+                    width: "150px",
                     height: "100px",
                     pointerEvents: "none",
                   }}
@@ -39,8 +39,8 @@ function Recentwork() {
                   src={akrialogo}
                   alt="AkriaLogo"
                   style={{
-                    width: "200px",
-                    height: "80px",
+                    width: "150px",
+                    height: "60px",
                     pointerEvents: "none",
                   }}
                 />
@@ -48,8 +48,8 @@ function Recentwork() {
                   src={cigna}
                   alt="CignaLogo"
                   style={{
-                    width: "180px",
-                    height: "80px",
+                    width: "130px",
+                    height: "60px",
                     pointerEvents: "none",
                   }}
                 />
@@ -57,25 +57,6 @@ function Recentwork() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="container" style={{ margin: "40px" }}>
-        <h4 style={{ fontSize: "28px" }}>Interested to Hire me:</h4>
-        <p style={{ fontSize: "20px" }} className="mt-3">
-          <i
-            class="bi bi-shuffle"
-            style={{ marginRight: "5px", color: "#6e07f3" }}
-          ></i>
-          I’m always open to discussing product design & Development work.
-        </p>
-        <a
-          href="https://www.linkedin.com/in/rajashekar-reddy-chinthala/"
-          target="_blank"
-          style={{ textDecoration: "none", fontSize: "18px" }}
-        >
-          <i class="bi bi-linkedin" style={{ marginRight: "5px" }}></i>
-          Linkedin
-        </a>
       </div>
     </React.Fragment>
   );
