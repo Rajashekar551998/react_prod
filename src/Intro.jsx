@@ -4,10 +4,7 @@ import "./Intro.css";
 function Intro() {
   return (
     <React.Fragment>
-      <div
-        className="container text-center"
-        style={{ margin: "30px", marginTop: "20px" }}
-      >
+      <div className="container text-center" style={{ marginTop: "50px" }}>
         <div class="card title_card">
           <div class="card-body">
             <h4
@@ -34,7 +31,7 @@ function Intro() {
       </div>
       <div
         className="container d-flex justify-content-center mt-5"
-        style={{ margin: "20px", fontSize: "17px" }}
+        style={{ marginTop: "30px", fontSize: "17px" }}
       >
         <div
           class="card"
@@ -56,7 +53,7 @@ function Intro() {
               life in the browser.
             </p>
             <p style={{ color: "#6e07f3" }}>Languages I Speak</p>
-            <p>HTML5, CSS3, JavaScript, ReactJS, BootStrap, GIT</p>
+            <p>HTML5, CSS3, JavaScript, Angular, ReactJS, BootStrap, GIT</p>
             <p style={{ color: "#6e07f3" }}>Dev Tools</p>
             <p>
               <i
