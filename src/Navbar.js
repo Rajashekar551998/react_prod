@@ -2,8 +2,6 @@ import React from "react";
 import "../src/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import MacbookAir from "./Images/macbookair.jpeg";
-import Airpods from "./Images/Airpods.jpeg";
 
 function Navbar() {
   return (
