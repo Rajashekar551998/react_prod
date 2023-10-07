@@ -8,7 +8,7 @@ import Recentwork from "../Recentwork";
 function Homepage() {
   return (
     <React.Fragment>
-      <div className="container text-center">
+      <div className="container text-center full_page_text">
         <h2
           style={{
             fontSize: "35px",

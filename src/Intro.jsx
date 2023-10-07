@@ -17,7 +17,7 @@ function Intro() {
               </span>{" "}
               Nice to meet you.
             </h4>
-            <h4 style={{ color: "black", fontSize: "17px", marginTop: "20px" }}>
+            <p style={{ marginTop: "20px" }}>
               Over the past year, I have embarked on my journey as a freelance
               designer, engaging in a variety of remote projects. I have offered
               consultation services to startups and actively participated in
@@ -27,7 +27,7 @@ function Intro() {
               to enhance my design skills by tackling diverse design challenges
               as they arise. My commitment to continuous improvement drives me
               to overcome design obstacles one step at a time.
-            </h4>
+            </p>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ function Intro() {
         style={{ marginTop: "30px", fontSize: "17px" }}
       >
         <div
-          class="card"
+          class="card def_card"
           style={{ width: "30rem", border: "1px solid #6e07f3" }}
         >
           <div class="card-body">
@@ -55,7 +55,10 @@ function Intro() {
               life in the browser.
             </p>
             <p style={{ color: "#6e07f3" }}>Languages I Speak</p>
-            <p>HTML5, CSS3, JavaScript, Angular, ReactJS, BootStrap, GIT</p>
+            <p>
+              HTML5, CSS3, JavaScript, TypeScript, Python, Angular, ReactJS,
+              BootStrap, GIT
+            </p>
             <p style={{ color: "#6e07f3" }}>Dev Tools</p>
             <p>
               <i
@@ -71,28 +74,6 @@ function Intro() {
               ></i>
               WebStrom
             </p>
-            <p>
-              <i
-                class="bi bi-braces"
-                style={{ marginRight: "5px", color: "#5BE9B9" }}
-              ></i>
-              Atom
-            </p>
-            <a
-              href="https://www.linkedin.com/in/rajashekar-reddy-chinthala/"
-              target="_blank"
-              style={{
-                textDecoration: "none",
-                fontSize: "18px",
-                float: "right",
-                border: "1px solid #6e07f3",
-                padding: "10px",
-                borderRadius: "10px",
-              }}
-            >
-              <i class="bi bi-linkedin" style={{ marginRight: "5px" }}></i>
-              Linkedin
-            </a>
           </div>
         </div>
       </div>

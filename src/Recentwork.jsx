@@ -7,7 +7,7 @@ import cigna from "./Images/cigna.png";
 function Recentwork() {
   return (
     <React.Fragment>
-      <div className="container text-center mb-5" style={{ marginTop: "30px" }}>
+      <div className="container text-center mb-5 mt-5" style={{ marginTop: "30px" }}>
         <h4 style={{ fontSize: "30px" }}>My Work Experiences</h4>
         <p style={{ fontSize: "18px" }}>
           Here are a few past design projects I've worked on. Want to see more?
@@ -22,37 +22,50 @@ function Recentwork() {
             Email me.
           </a>
         </p>
-        <div className="container d-flex justify-content-center mt-4">
+        <h6>Almost 2 Years of Work Experience.</h6>
+        <div className="container d-flex justify-content-center mt-2">
           <div className="row">
             <div className="col-md-12">
               <div className="card-body">
-                <img
-                  src={opentext}
-                  alt="OpentextLogo"
-                  style={{
-                    width: "150px",
-                    height: "100px",
-                    pointerEvents: "none",
-                  }}
-                />
-                <img
-                  src={akrialogo}
-                  alt="AkriaLogo"
-                  style={{
-                    width: "150px",
-                    height: "60px",
-                    pointerEvents: "none",
-                  }}
-                />
-                <img
-                  src={cigna}
-                  alt="CignaLogo"
-                  style={{
-                    width: "130px",
-                    height: "60px",
-                    pointerEvents: "none",
-                  }}
-                />
+                <div>
+                  <img
+                    src={opentext}
+                    alt="OpentextLogo"
+                    style={{
+                      width: "150px",
+                      height: "90px",
+                      pointerEvents: "none",
+                    }}
+                  />
+                  <p>Internship (2019 - 2020) 6-Months</p>
+                  <br />
+                </div>
+                <div>
+                  <img
+                    src={akrialogo}
+                    alt="AkriaLogo"
+                    style={{
+                      width: "150px",
+                      height: "60px",
+                      pointerEvents: "none",
+                    }}
+                  />
+                  <br />
+                  <p>Internship (2021 - 2021) 6-Months</p>
+                </div>
+                <div>
+                  <img
+                    className="mt-2"
+                    src={cigna}
+                    alt="CignaLogo"
+                    style={{
+                      width: "130px",
+                      height: "60px",
+                      pointerEvents: "none",
+                    }}
+                  />
+                  <p className="mt-2">Internship (2023 - 2023) 8-Months</p>
+                </div>
               </div>
             </div>
           </div>
