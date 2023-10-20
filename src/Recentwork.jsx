@@ -3,6 +3,7 @@ import "./Recentwork.css";
 import akrialogo from "./Images/akria.png";
 import opentext from "./Images/opentext.png";
 import cigna from "./Images/cigna.png";
+import MyEducation from "./MyEducation";
 
 function Recentwork() {
   const openGithub = () => {
@@ -26,7 +27,7 @@ function Recentwork() {
   return (
     <React.Fragment>
       <div
-        className="container-fluid text-center mb-5 mt-5"
+        className="container-fluid text-center mt-5"
         style={{ marginTop: "30px" }}
       >
         <p style={{ fontSize: "30px" }}>Connect with me</p>
@@ -92,8 +93,9 @@ function Recentwork() {
           </div>
         </div>
       </div>
+      <MyEducation />
       <div
-        className="container text-center mb-5 mt-5"
+        className="container text-center mb-5 mt-3"
         style={{ marginTop: "30px" }}
       >
         <p style={{ fontSize: "30px" }}>My Work Experiences</p>
