@@ -14,7 +14,7 @@ function MyEducation() {
                 src={unt}
                 alt="unt_logo"
                 style={{
-                  width: "100px",
+                  width: "110px",
                   height: "80px",
                   pointerEvents: "none",
                 }}

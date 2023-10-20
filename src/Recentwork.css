@@ -26,3 +26,13 @@
   background-color: #6e07f3;
   color: white;
 }
+@media (max-width: 493px) {
+  .gitHub_button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 333px) {
+  .linked_button {
+    margin-top: 10px;
+  }
+}

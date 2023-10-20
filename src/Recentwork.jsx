@@ -65,6 +65,7 @@ function Recentwork() {
                 marginLeft: "10px",
               }}
               onClick={openLinkedin}
+              className="linked_button"
             >
               <i
                 class="bi bi-linkedin"
@@ -83,6 +84,7 @@ function Recentwork() {
                 marginLeft: "10px",
               }}
               onClick={openGithub}
+              className="gitHub_button"
             >
               <i
                 class="bi bi-github"
@@ -95,15 +97,21 @@ function Recentwork() {
       </div>
       <MyEducation />
       <div
-        className="container text-center mb-5 mt-3"
-        style={{ marginTop: "30px" }}
+        className="card container text-center mb-5 mt-3"
+        style={{
+          marginTop: "30px",
+          border: "1px solid #6e07f3",
+          boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+        }}
       >
-        <p style={{ fontSize: "30px" }}>My Work Experiences</p>
+        <p className="mt-3" style={{ fontSize: "30px" }}>
+          My Work Experiences
+        </p>
         <p style={{ fontSize: "18px" }}>
           Here are a few past design projects I've worked on.
         </p>
         <h6>Almost 1.5 Years of Work Experience as a Intern.</h6>
-        <div className="container d-flex justify-content-center mt-2">
+        <div className="container d-flex justify-content-center">
           <div className="row">
             <div className="col-md-12">
               <div className="card-body">
