@@ -17,9 +17,9 @@ function Intro() {
               </span>{" "}
               Nice to meet you.
             </h4>
-            <p style={{ marginTop: "20px" }}>
-              Over the past year, I have embarked on my journey as a freelance
-              designer, engaging in a variety of remote projects. I have offered
+            <p style={{ marginTop: "20px", textAlign: "left" }}>
+              <b>1)</b> Over the past year, I have embarked on my journey as a
+              designer, engaging in a variety of projects. I have offered
               consultation services to startups and actively participated in
               collaborations with skilled individuals to develop digital
               products targeted at both business and consumer audiences. With a
@@ -27,6 +27,21 @@ function Intro() {
               to enhance my design skills by tackling diverse design challenges
               as they arise. My commitment to continuous improvement drives me
               to overcome design obstacles one step at a time.
+              <br />
+              <b>2)</b> Experienced web developer skilled in crafting dynamic
+              and visually appealing applications. Proficient in HTML, CSS, and
+              ReactJS, I specialize in designing intuitive user interfaces and
+              implementing diverse modules to meet project requirements.
+              <br />
+              <b>3)</b> Leveraging Javascript for service handling and SQL
+              Server for robust databases. Passionate about creating seamless,
+              responsive UIs with CSS3 and HTML5. Adept at utilizing React
+              Router and NPM components for efficient single-page applications.
+              <br />
+              <b>4)</b> Committed to staying current with the latest
+              technologies and collaborating within cross-functional teams.
+              Strong track record of successful code deployment and
+              contributions to GitHub.
             </p>
           </div>
         </div>
