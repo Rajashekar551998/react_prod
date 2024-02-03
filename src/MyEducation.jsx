@@ -1,6 +1,5 @@
 import React from "react";
 import unt from "./Images/unt.svg";
-import mrec from "./Images/mrec.png";
 
 function MyEducation() {
   return (
@@ -10,7 +9,7 @@ function MyEducation() {
           <div className="col-md-12 mt-3">
             <p style={{ fontSize: "30px" }}>My Education</p>
             <div>
-              <img
+              {/* <img
                 src={unt}
                 alt="unt_logo"
                 style={{
@@ -18,7 +17,7 @@ function MyEducation() {
                   height: "80px",
                   pointerEvents: "none",
                 }}
-              />
+              /> */}
               <p style={{ fontSize: "16px" }}>
                 <i
                   class="bi bi-backpack3-fill"
@@ -28,7 +27,7 @@ function MyEducation() {
               </p>
             </div>
             <div>
-              <img
+              {/* <img
                 src={mrec}
                 alt="unt_logo"
                 style={{
@@ -36,7 +35,7 @@ function MyEducation() {
                   height: "90px",
                   pointerEvents: "none",
                 }}
-              />
+              /> */}
               <p style={{ fontSize: "16px" }}>
                 <i
                   class="bi bi-backpack3-fill"

@@ -2,7 +2,6 @@ import React from "react";
 import "./Recentwork.css";
 import akrialogo from "./Images/akria.png";
 import opentext from "./Images/opentext.png";
-import cigna from "./Images/cigna.png";
 import MyEducation from "./MyEducation";
 
 function Recentwork() {
@@ -43,25 +42,6 @@ function Recentwork() {
                 borderRadius: "10px",
                 color: "#6e07f3",
                 backgroundColor: "white",
-              }}
-              id="openEmail"
-              className="openMyEmail"
-              onClick={openEmail}
-            >
-              <i
-                class="bi bi-envelope-paper-fill"
-                style={{ marginRight: "5px", color: "#6e07f3" }}
-              ></i>
-              Email
-            </button>
-            <button
-              style={{
-                width: "150px",
-                border: "1px solid #6e07f3",
-                padding: "10px",
-                borderRadius: "10px",
-                color: "#6e07f3",
-                backgroundColor: "white",
                 marginLeft: "10px",
               }}
               onClick={openLinkedin}
@@ -72,25 +52,6 @@ function Recentwork() {
                 style={{ marginRight: "5px", color: "#6e07f3" }}
               ></i>
               Linkedin
-            </button>
-            <button
-              style={{
-                width: "150px",
-                border: "1px solid #6e07f3",
-                padding: "10px",
-                borderRadius: "10px",
-                color: "#6e07f3",
-                backgroundColor: "white",
-                marginLeft: "10px",
-              }}
-              onClick={openGithub}
-              className="gitHub_button"
-            >
-              <i
-                class="bi bi-github"
-                style={{ marginRight: "5px", color: "#6e07f3" }}
-              ></i>
-              Github
             </button>
           </div>
         </div>
@@ -110,7 +71,6 @@ function Recentwork() {
         <p style={{ fontSize: "18px" }}>
           Here are a few past design projects I've worked on.
         </p>
-        <h6>Almost 1.5 Years of Work Experience as a Intern.</h6>
         <div className="container d-flex justify-content-center">
           <div className="row">
             <div className="col-md-12">
@@ -125,7 +85,7 @@ function Recentwork() {
                       pointerEvents: "none",
                     }}
                   />
-                  <p>Internship (2019 - 2020) 6-Months</p>
+                  <p>Internship (Dec 2019 - Jun 2020)</p>
                   <div>
                     <b style={{ float: "left", textDecoration: "underline" }}>
                       Roles & Responsibilities:
@@ -179,7 +139,7 @@ function Recentwork() {
                     className="mt-3"
                   />
                   <br />
-                  <p>Internship (2021 - 2021) 6-Months</p>
+                  <p>Freelance (Jan 2021 - Jun 2021)</p>
                   <div>
                     <b style={{ float: "left", textDecoration: "underline" }}>
                       Roles & Responsibilities:
@@ -221,78 +181,6 @@ function Recentwork() {
                       <p>
                         GitHub · CSS3 · React.js · Git · HTML5 · JavaScript ·
                         Bootstrap · MySQL
-                      </p>
-                    </p>
-                  </div>
-                </div>
-
-                <div>
-                  <img
-                    className="mt-2"
-                    src={cigna}
-                    alt="CignaLogo"
-                    style={{
-                      width: "130px",
-                      height: "60px",
-                      pointerEvents: "none",
-                    }}
-                  />
-                  <p className="mt-2">Internship (2023 - 2023) 8-Months</p>
-                  <div>
-                    <b style={{ float: "left", textDecoration: "underline" }}>
-                      Roles & Responsibilities:
-                    </b>
-                    <br />
-                    <p style={{ textAlign: "left" }}>
-                      1) Worked closely with backend developers to integrate the
-                      AngularJS frontend with the EDI system.
-                      <br /> 2) Creating and maintaining user interfaces for
-                      interacting with EDI systems. Develop responsive and
-                      user-friendly web applications using AngularJS, HTML, CSS,
-                      and JavaScript.
-                      <br />
-                      3) Implement validation and error-checking mechanisms to
-                      ensure that data entered by users conforms to EDI
-                      standards. This is critical to prevent data
-                      inconsistencies and errors.
-                      <br /> 4) Implement data transformation logic to convert
-                      data between the format used in the user interface and the
-                      format required for EDI messages.
-                      <br /> 5) Develop error handling and reporting mechanisms
-                      to deal with issues that may arise during EDI message
-                      processing. This includes providing meaningful error
-                      messages to users.
-                      <br /> 6) Implement security measures to protect sensitive
-                      EDI data, such as encryption and authentication. Ensure
-                      data privacy and compliance with security standards and
-                      regulations.
-                      <br /> 7) Conduct thorough testing to identify and rectify
-                      any issues in the application, especially related to EDI
-                      data processing. Debug and troubleshoot problems as they
-                      arise.
-                      <br /> 8) Maintain documentation that outlines how the EDI
-                      system interfaces with the AngularJS application,
-                      including data mapping, API specifications, and
-                      troubleshooting guides.
-                      <br /> 9) Collaborate with cross-functional teams QA
-                      testers, and business users to ensure the application
-                      meets the business requirements.
-                      <br /> 10) Use version control systems (e.g., Git) to
-                      manage source code, ensuring that changes are tracked and
-                      can be easily rolled back if necessary.
-                      <br />
-                      11) Optimize the application for performance, especially
-                      when dealing with large volumes of EDI data. This may
-                      involve asynchronous processing and efficient data
-                      retrieval techniques.
-                      <br /> 12) Keep the application up-to-date with the latest
-                      AngularJS and EDI standards. Apply patches and updates as
-                      required.
-                      <br />
-                      <b>Skills:</b>
-                      <p>
-                        GitHub · Python (Programming Language) · Angular · CSS3
-                        · Git · HTML5 · JavaScript · Bootstrap
                       </p>
                     </p>
                   </div>
